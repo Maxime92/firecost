@@ -23,9 +23,6 @@
 			echo 'Nouveau nom rubrique : '.$data['nom_rub'].'<br />';  
 		}
 	}
-	
-	
-	
 	else
 	{
 		echo "Erreur dans la connexion à la bdd";
