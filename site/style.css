@@ -1,0 +1,189 @@
+body
+{
+	padding:0; margin:0;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	position : relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+
+}
+
+#header
+{
+	background:#336699 url(images/header-bg.png) 0 100% repeat;
+	width: 1024px;
+}
+#footer 
+{
+		width:1024px;
+		font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+		font-weight: 10;
+		font-size: medium;
+		font-style: italic;
+		height:50px;
+        /* Opera */
+        background: url("footer-bg.svg");
+	    /* Navigateurs récents */
+        background-image: -webkit-gradient(
+	                linear,
+	                left top, left bottom,
+	                from(rgba(147,174,201,1)),
+	                to(#336699)
+	            );
+	    background-image: -webkit-linear-gradient(
+	                top,
+	                rgba(147,174,201,1),
+	                #336699
+	            );
+		background-image: -moz-linear-gradient(
+	                top,
+	                rgba(147,174,201,1),
+	                #336699
+	            );
+	    background-image: -o-linear-gradient(
+	                top,
+	                rgba(147,174,201,1),
+	                #336699
+	            );
+	    background-image: linear-gradient(
+	                top,
+	                rgba(147,174,201,1),
+	                #336699
+	            );
+	        }
+	    }
+}
+input[type="submit"], a.submit {
+    background: -moz-linear-gradient(90deg, #0459B7, #08ADFF) repeat scroll 0 0 transparent;
+    border: 1px solid #093C75;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 120px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #333333;
+    text-transform: uppercase;
+}
+
+.pageTitle
+{
+	text-align: center;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+
+#img-login
+{
+	padding : 0 0 0 4em;
+}
+#login
+{
+	padding : 10px 0 0 0em;
+}
+#navbar ul 
+{
+    background-color: #6699CC;
+    font: normal 90% arial, helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: .2em 0;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar ul li 
+{
+    display: inline;
+}
+
+#navbar a 
+{
+    background-color: #6699CC;
+    border-right: 1px solid #6699CC;
+    padding: .2em 1em;
+    text-decoration: none;
+}
+
+#navbar a:hover 
+{
+    background-color: #336699;
+    color: #FFFFFF;
+}
+#subtitle 
+{
+	font-size : small;
+	text-align : center;
+}
+#account 
+{
+	padding : 0 0 0 30em;
+}
+aside, aside
+{
+	margin-left: 30px;
+}
+section
+{
+	margin-bottom: 30px;
+}
+
+
+aside
+{
+	float: left;
+	width: 300px;
+	background-color: #336699;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em;
+}
+#milieu2
+{
+	float: left;
+	width: 300px;
+	background-color: #336699;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em;
+}
+#box
+{
+	
+	float: right;
+	height: 300px;
+	top: 20px;	
+    position: relative;
+    width: 300px;
+    padding: 10px;
+    font-size: 0.9em;
+}
+#img
+{
+   padding-right:  2px;
+}
+#bloc_page
+{
+    width: 1100px;
+	padding: 10px 10px; 
+    
+}
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+footer
+{
+    padding-bottom: 1000px;
+	padding: 10px;
+	font-size: 0.8em;
+}
