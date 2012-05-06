@@ -1,5 +1,5 @@
 ﻿<?php
-	list($width, $height, $type, $attr) = getimagesize("C:\Users\Guillaume\Pictures\ab.png");
+	list($width, $height, $type, $attr) = getimagesize("URL");
 	echo "$type $attr <br/>";
 	if($type != 2 && $type != 3)
 	{
